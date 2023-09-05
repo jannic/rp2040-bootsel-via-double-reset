@@ -1,0 +1,13 @@
+[package]
+name = "rp2040-bootsel-via-double-reset"
+version = "0.0.1"
+authors = ["Jan Niehusmann <jan@gondor.com>"]
+license = "MIT OR Apache-2.0"
+edition = "2021"
+description = "Use two reset signals in short succession to trigger reboot to bootsel mode"
+repository = "https://github.com/jannic/rp2040-bootsel-via-double-reset/"
+homepage = "https://github.com/jannic/rp2040-bootsel-via-double-reset/"
+
+[dependencies]
+embedded-hal = "0.2.7"
+rp2040-hal = "0.9.0"
